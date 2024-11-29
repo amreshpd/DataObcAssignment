@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Event {
-
+    private String eventType;
 	private LocalDate onBoard;
 	private Double salary;
 	private Double bonus;

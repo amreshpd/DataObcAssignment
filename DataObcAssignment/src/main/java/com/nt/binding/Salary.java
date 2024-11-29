@@ -14,6 +14,6 @@ public class Salary {
 	private String empId;
 	private String designation;
 	private LocalDate eventDate;
-	private Event event;
+	private String event;
 	private String notes;
 }

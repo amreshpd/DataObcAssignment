@@ -14,6 +14,6 @@ public class Reimburesement {
 	private String empId;
 	private String designation;
 	private LocalDate eventDate;
-	private Event event;
+	private String event;
 	private String notes;
 }

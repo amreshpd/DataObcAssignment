@@ -2,9 +2,6 @@ package com.nt.binding;
 
 import java.time.LocalDate;
 
-import org.hibernate.annotations.UpdateTimestamp;
-
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,6 +16,6 @@ public class Onboard {
 	private String empLName;
 	private String designation;
 	private LocalDate eventDate;
-	private Event event;
+	private String event;
 	private String notes;
 }
