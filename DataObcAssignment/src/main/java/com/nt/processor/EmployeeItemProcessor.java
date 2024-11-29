@@ -21,7 +21,7 @@ public class EmployeeItemProcessor implements ItemProcessor<Employee, List<Emplo
 		emp.setEmpId(empId);
 		emp.setEmpFName(item.getEmpFName());
 		emp.setEmpLName(item.getEmpLName());
-		emp.setSequaneceNumber(item.getSequaneceNumber());
+		emp.setSequenceNumber(item.getSequenceNumber());
 		emp.setDesignation(item.getDesignation());
 		emp.setEventDate(item.getEventDate());
 		emp.setEvent(item.getEvent());
