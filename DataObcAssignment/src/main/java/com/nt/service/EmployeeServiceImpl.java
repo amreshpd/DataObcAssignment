@@ -34,4 +34,34 @@ public class EmployeeServiceImpl implements IEmployeeService {
 		System.out.println("Job Execution Status::" + execution.getExitStatus());
 		return execution;
 	}
+
+	@Override
+	public void showOnboardDetails(int empiId) {
+		
+		
+	}
+
+	@Override
+	public void showSalaryDetails(int empiId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showBonusDetails(int empiId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showExitDetails(int empiId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showReimbursementDetails(int empiId) {
+		// TODO Auto-generated method stub
+		
+	}
 }

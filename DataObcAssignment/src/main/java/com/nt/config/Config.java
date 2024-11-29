@@ -54,6 +54,7 @@ public class Config {
 				.build();
 	}
 
+	@SuppressWarnings("unchecked")
 	@Bean(name="step1")
 	public Step createStep1(JobRepository repository, PlatformTransactionManager txMgmr) {
 		return new StepBuilder("step1", repository)
